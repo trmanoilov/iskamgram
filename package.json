@@ -1,0 +1,49 @@
+{
+  "name": "iskamgram",
+  "version": "1.0.0",
+  "description": "Instagram content creation & auto publishing",
+  "main": "build/app.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc && node build/app.js",
+    "start": "node build/app.js",
+    "prod": "tsc && nodemon build/app.js &"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trmanoilov/iskamgram.git"
+  },
+  "keywords": [
+    "iskam",
+    "gram"
+  ],
+  "author": "Todor Manoilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trmanoilov/iskamgram/issues"
+  },
+  "homepage": "https://github.com/trmanoilov/iskamgram#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "instagram-web-api": "^2.2.2",
+    "jimp": "^0.16.1",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^3.1.0",
+    "nodemon": "^2.0.15",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/node-cron": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^8.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.4"
+  },
+  "type": "module"
+}
