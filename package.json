@@ -5,7 +5,7 @@
   "main": "build/app.js",
   "scripts": {
     "test": "test",
-    "build": "tsc && node build/app.js",
+    "build": "tsc",
     "start": "node build/app.js",
     "prod": "tsc && nodemon build/app.js &"
   },
