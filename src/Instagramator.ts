@@ -19,7 +19,7 @@ class Instagramator {
   CONTENT_W = 600;
   CONTENT_H = 400;
   CONTENT_X = 100;
-  CONTENT_Y = 100;
+  CONTENT_Y = 150;
 
   // Needed to make sure author shows below the quote.
   CONTENT_AUTHOR_OFFSET = 20;
