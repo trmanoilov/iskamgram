@@ -11,7 +11,7 @@ class Instagramator {
   /**
    * Set of hashtags to insert into the post caption.
    */
-  hashtagLine = `#quotes #stirring #inhalation #breathing_in #encouragement #muse #inspire #impetus #motivation #imagination #ennobling #exalting #inspirational #uplifting #motivating #enlightening #invigorating #exhilarating #rewarding #heartening #motive #need #motivator #motivated #motivates #motivating #reason #daily #desire #inspiration #quotation #cite #quotation_mark #paraphrase #quotations #phrase #excerpt #read #unquote #fine #well #better #form #fun #happy #like #love #meaning #nice `;
+  hashtagLine = `#quotes #encouragement #muse #inspire #impetus #motivation #imagination #exalting #inspirational #uplifting #motivating #enlightening #exhilarating #rewarding #heartening #motive #need #motivator #motivated #motivates #motivating #reason #daily #desire #inspiration #cite #fine #well #better #form #fun #happy #like #love #meaning #nice`;
 
   POST_W = 800;
   POST_H = 800;

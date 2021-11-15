@@ -33,5 +33,5 @@ if (isTest) {
   // 20sec interval to test with.
   cron.schedule('*/20 * * * * *', daily);
 } else {
-  cron.schedule('* 8 * * *', daily);
+  cron.schedule('0 8 * * *', daily);
 }
